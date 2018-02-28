@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'gqbaoMailSender_Example' do
-  pod 'gqbaoMailSender', :path => '../'
+  pod 'gqbaoMailSender', :path => '../gqbaoMailSender.podspec'
 
   target 'gqbaoMailSender_Tests' do
     inherit! :search_paths

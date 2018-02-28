@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		90E81303204673BB00FFAEB1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E81302204673BB00FFAEB1 /* MessageUI.framework */; };
 		E4271A1F7B06C3B24CAEF00F /* Pods_gqbaoMailSender_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F51A3AB2ECAAE0752B0DB44 /* Pods_gqbaoMailSender_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +39,9 @@
 
 /* Begin PBXFileReference section */
 		00452231C5F1141F9E12EB30 /* Pods_gqbaoMailSender_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gqbaoMailSender_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24B51D7334F673338AAF5E8D /* gqbaoMailSender.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = gqbaoMailSender.podspec; path = ../gqbaoMailSender.podspec; sourceTree = "<group>"; };
+		24B51D7334F673338AAF5E8D /* gqbaoMailSender.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = gqbaoMailSender.podspec; path = ../gqbaoMailSender.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4FBA27D5D9D7B3E5146B6FA5 /* Pods-gqbaoMailSender_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gqbaoMailSender_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gqbaoMailSender_Tests/Pods-gqbaoMailSender_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		58CF59C748A02E892D8654E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		58CF59C748A02E892D8654E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* gqbaoMailSender_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gqbaoMailSender_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +63,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78AE700B78CD8687075E1CB8 /* Pods-gqbaoMailSender_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gqbaoMailSender_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gqbaoMailSender_Example/Pods-gqbaoMailSender_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		79E05FC3A5D660F3E8A3F9DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		79E05FC3A5D660F3E8A3F9DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7F51A3AB2ECAAE0752B0DB44 /* Pods_gqbaoMailSender_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gqbaoMailSender_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90E81302204673BB00FFAEB1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		B694C8D4701B73F31DB1B7C5 /* Pods-gqbaoMailSender_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gqbaoMailSender_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-gqbaoMailSender_Example/Pods-gqbaoMailSender_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E8F38BECA19AF0E6C408FC39 /* Pods-gqbaoMailSender_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gqbaoMailSender_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gqbaoMailSender_Tests/Pods-gqbaoMailSender_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E81303204673BB00FFAEB1 /* MessageUI.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +122,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				90E81302204673BB00FFAEB1 /* MessageUI.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
