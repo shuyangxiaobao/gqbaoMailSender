@@ -1,0 +1,6 @@
+framework module Pods_gqbaoMailSender_Tests {
+  umbrella header "Pods-gqbaoMailSender_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

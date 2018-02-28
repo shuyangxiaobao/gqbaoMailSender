@@ -1,0 +1,6 @@
+framework module gqbaoMailSender {
+  umbrella header "gqbaoMailSender-umbrella.h"
+
+  export *
+  module * { export * }
+}
